@@ -1,0 +1,22 @@
+{
+  "name": "stargazing-basic-page",
+  "version": "1.0.0",
+  "description": "A basic page with stargazing background and SCSS preprocessing",
+  "scripts": {
+    "start": "npm run compile && node ./index.mjs",
+    "compile": "sass styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlberm2014/stargazing-basic-page.git"
+  },
+  "author": "Marl Bermudo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlberm2014/stargazing-basic-page/issues"
+  },
+  "homepage": "https://github.com/marlberm2014/stargazing-basic-page#readme",
+  "dependencies": {
+    "sass": "^1.77.6"
+  }
+}
